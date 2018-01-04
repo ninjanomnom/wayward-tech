@@ -1,0 +1,23 @@
+{
+  "name": "wayward-tech-and-science",
+  "version": "0.0.1",
+  "description": "A wayward mod adding modern technology and automated machinery.",
+  "license": "(AGPL-3.0-or-later OR MIT OR CC-BY-SA-4.0)",
+  "main": "main.js",
+  "homepage": "https://github.com/ninjanomnom/wayward-tech",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ninjanomnom/wayward-tech.git"
+  },
+  "bugs": "https://github.com/ninjanomnom/wayward-tech/issues",
+  "contributors": [
+    {
+      "name": "Emmett Gaines"
+    }
+  ],
+  "private": true,
+  "devDependencies": {
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  }
+}

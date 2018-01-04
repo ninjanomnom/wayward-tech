@@ -1,0 +1,15 @@
+{
+	"name": "Tech and Science",
+	"description": "A wayward mod adding modern technology and automated machinery. The source and bug reporting can be located at https://github.com/ninjanomnom/wayward-tech",
+	"version": "0.0.1",
+	"author": "ninjanomnom",
+	"compatibleMinorVersions": [
+		5
+	],
+	"unloadable": false,
+	"file": "main.js",
+	"hooks": [
+		"OnGameStart",
+		"OnPlayerJoin"
+	]
+}
