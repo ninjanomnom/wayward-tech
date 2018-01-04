@@ -1,2 +1,23 @@
+###Files and folders specified here will never be tracked.
 
-node_modules/
+#Ignore directories
+/node_modules/**/*
+
+#Ignore compiled files
+*.js
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# Windows shortcuts
+*.lnk
+
+#Sublime
+*.sublime-project
+*.sublime-workspace
+
+#Visual studio stuff
+*.vscode/*
+
+#GitHub Atom
+.atom-build.json
