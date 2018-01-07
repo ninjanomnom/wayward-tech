@@ -5,9 +5,11 @@
 [![Percentage of issues still open](https://isitmaintained.com/badge/open/ninjanomnom/wayward-tech.svg)](https://isitmaintained.com/project/ninjanomnom/wayward-tech "Percentage of issues still open")
 [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/ninjanomnom/wayward-tech.svg)](https://isitmaintained.com/project/ninjanomnom/wayward-tech "Average time to resolve an issue")
 
-We'll see if this goes anywhere.
+~~We'll see if this goes anywhere.~~
 
-This mod sets out to add modern machinery and automation to wayward to make the late game a bit more interesting. Nothing is done yet, how did you find this.
+~~This mod sets out to add modern machinery and automation to wayward to make the late game a bit more interesting. Nothing is done yet, how did you find this.~~
+
+Dear god the internals are horrifying for modding
 
 ### Licensing
 
