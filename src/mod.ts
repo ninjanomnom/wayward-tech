@@ -1,6 +1,10 @@
 import Mod from "mod/Mod";
 import { MessageType } from "language/Messages";
 import { IPlayer } from "player/IPlayer";
+import { IItem } from "item/IItem";
+
+// This sort of thing should be made automated eventualy
+import streetLampExports from "./items/StreetLamp";
 
 export default class techAndScience extends Mod {
 	private version: string;
@@ -14,6 +18,13 @@ export default class techAndScience extends Mod {
 		this.greeting = `You have Tech and Science v${this.version}. It is currently in development. Crashes, broken saves, and horrific bugs are to be expected.`;
 
 		console.log("Tech and Science: Step 2 of 2...");
+
+		for (let item of streetLampExports.items) {
+			this.addItem(item);
+		};
+		for (let doodad of streetLampExports.doodads) {
+			this.addDoodad(doodad);
+		}
 		
 		// Greet the player
 		console.log(this.greeting)

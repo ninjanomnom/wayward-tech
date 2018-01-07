@@ -8,6 +8,9 @@
         "preserveConstEnums": true,
         "sourceMap": true,
         "baseUrl": "./mod-reference/definitions",
+        "paths": {
+            "lib": ["../../src/lib"]
+        },
         "types": []
     }
 }
